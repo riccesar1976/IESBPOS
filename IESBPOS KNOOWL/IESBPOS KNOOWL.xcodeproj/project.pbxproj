@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571F80FC1D5BEE3A00C59C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F80FB1D5BEE3A00C59C79 /* main.m */; };
+		571F80FF1D5BEE3A00C59C79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F80FE1D5BEE3A00C59C79 /* AppDelegate.m */; };
+		571F81021D5BEE3A00C59C79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F81011D5BEE3A00C59C79 /* ViewController.m */; };
+		571F81051D5BEE3A00C59C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571F81031D5BEE3A00C59C79 /* Main.storyboard */; };
+		571F81081D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 571F81061D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld */; };
+		571F810A1D5BEE3A00C59C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571F81091D5BEE3A00C59C79 /* Assets.xcassets */; };
+		571F810D1D5BEE3A00C59C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571F810B1D5BEE3A00C59C79 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		571F80F71D5BEE3A00C59C79 /* IESBPOS KNOOWL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IESBPOS KNOOWL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		571F80FB1D5BEE3A00C59C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571F80FD1D5BEE3A00C59C79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		571F80FE1D5BEE3A00C59C79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		571F81001D5BEE3A00C59C79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		571F81011D5BEE3A00C59C79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		571F81041D5BEE3A00C59C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		571F81071D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IESBPOS_KNOOWL.xcdatamodel; sourceTree = "<group>"; };
+		571F81091D5BEE3A00C59C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		571F810C1D5BEE3A00C59C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		571F810E1D5BEE3A00C59C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571F80F41D5BEE3A00C59C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571F80EE1D5BEE3A00C59C79 = {
+			isa = PBXGroup;
+			children = (
+				571F80F91D5BEE3A00C59C79 /* IESBPOS KNOOWL */,
+				571F80F81D5BEE3A00C59C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571F80F81D5BEE3A00C59C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571F80F71D5BEE3A00C59C79 /* IESBPOS KNOOWL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571F80F91D5BEE3A00C59C79 /* IESBPOS KNOOWL */ = {
+			isa = PBXGroup;
+			children = (
+				571F80FD1D5BEE3A00C59C79 /* AppDelegate.h */,
+				571F80FE1D5BEE3A00C59C79 /* AppDelegate.m */,
+				571F81001D5BEE3A00C59C79 /* ViewController.h */,
+				571F81011D5BEE3A00C59C79 /* ViewController.m */,
+				571F81031D5BEE3A00C59C79 /* Main.storyboard */,
+				571F81091D5BEE3A00C59C79 /* Assets.xcassets */,
+				571F810B1D5BEE3A00C59C79 /* LaunchScreen.storyboard */,
+				571F810E1D5BEE3A00C59C79 /* Info.plist */,
+				571F81061D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld */,
+				571F80FA1D5BEE3A00C59C79 /* Supporting Files */,
+			);
+			path = "IESBPOS KNOOWL";
+			sourceTree = "<group>";
+		};
+		571F80FA1D5BEE3A00C59C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571F80FB1D5BEE3A00C59C79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571F80F61D5BEE3A00C59C79 /* IESBPOS KNOOWL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571F81111D5BEE3A00C59C79 /* Build configuration list for PBXNativeTarget "IESBPOS KNOOWL" */;
+			buildPhases = (
+				571F80F31D5BEE3A00C59C79 /* Sources */,
+				571F80F41D5BEE3A00C59C79 /* Frameworks */,
+				571F80F51D5BEE3A00C59C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IESBPOS KNOOWL";
+			productName = "IESBPOS KNOOWL";
+			productReference = 571F80F71D5BEE3A00C59C79 /* IESBPOS KNOOWL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571F80EF1D5BEE3A00C59C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "RICARDO BERNARDES";
+				TargetAttributes = {
+					571F80F61D5BEE3A00C59C79 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 571F80F21D5BEE3A00C59C79 /* Build configuration list for PBXProject "IESBPOS KNOOWL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571F80EE1D5BEE3A00C59C79;
+			productRefGroup = 571F80F81D5BEE3A00C59C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571F80F61D5BEE3A00C59C79 /* IESBPOS KNOOWL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571F80F51D5BEE3A00C59C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F810D1D5BEE3A00C59C79 /* LaunchScreen.storyboard in Resources */,
+				571F810A1D5BEE3A00C59C79 /* Assets.xcassets in Resources */,
+				571F81051D5BEE3A00C59C79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571F80F31D5BEE3A00C59C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571F81021D5BEE3A00C59C79 /* ViewController.m in Sources */,
+				571F81081D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld in Sources */,
+				571F80FF1D5BEE3A00C59C79 /* AppDelegate.m in Sources */,
+				571F80FC1D5BEE3A00C59C79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		571F81031D5BEE3A00C59C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571F81041D5BEE3A00C59C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		571F810B1D5BEE3A00C59C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571F810C1D5BEE3A00C59C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571F810F1D5BEE3A00C59C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571F81101D5BEE3A00C59C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571F81121D5BEE3A00C59C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IESBPOS KNOOWL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "testes.IESBPOS-KNOOWL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		571F81131D5BEE3A00C59C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IESBPOS KNOOWL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "testes.IESBPOS-KNOOWL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571F80F21D5BEE3A00C59C79 /* Build configuration list for PBXProject "IESBPOS KNOOWL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571F810F1D5BEE3A00C59C79 /* Debug */,
+				571F81101D5BEE3A00C59C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571F81111D5BEE3A00C59C79 /* Build configuration list for PBXNativeTarget "IESBPOS KNOOWL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571F81121D5BEE3A00C59C79 /* Debug */,
+				571F81131D5BEE3A00C59C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		571F81061D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				571F81071D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodel */,
+			);
+			currentVersion = 571F81071D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodel */;
+			path = IESBPOS_KNOOWL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 571F80EF1D5BEE3A00C59C79 /* Project object */;
+}
