@@ -14,6 +14,8 @@
 		571F81081D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 571F81061D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld */; };
 		571F810A1D5BEE3A00C59C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571F81091D5BEE3A00C59C79 /* Assets.xcassets */; };
 		571F810D1D5BEE3A00C59C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571F810B1D5BEE3A00C59C79 /* LaunchScreen.storyboard */; };
+		57F47BE81D5C048D00F72407 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F47BE71D5C048D00F72407 /* SecondViewController.m */; };
+		57F47BEB1D5C060300F72407 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F47BEA1D5C060300F72407 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		571F81091D5BEE3A00C59C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571F810C1D5BEE3A00C59C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571F810E1D5BEE3A00C59C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F47BE61D5C048D00F72407 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		57F47BE71D5C048D00F72407 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		57F47BE91D5C060300F72407 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		57F47BEA1D5C060300F72407 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,10 @@
 				571F810E1D5BEE3A00C59C79 /* Info.plist */,
 				571F81061D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld */,
 				571F80FA1D5BEE3A00C59C79 /* Supporting Files */,
+				57F47BE61D5C048D00F72407 /* SecondViewController.h */,
+				57F47BE71D5C048D00F72407 /* SecondViewController.m */,
+				57F47BE91D5C060300F72407 /* ThirdViewController.h */,
+				57F47BEA1D5C060300F72407 /* ThirdViewController.m */,
 			);
 			path = "IESBPOS KNOOWL";
 			sourceTree = "<group>";
@@ -152,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F47BE81D5C048D00F72407 /* SecondViewController.m in Sources */,
 				571F81021D5BEE3A00C59C79 /* ViewController.m in Sources */,
+				57F47BEB1D5C060300F72407 /* ThirdViewController.m in Sources */,
 				571F81081D5BEE3A00C59C79 /* IESBPOS_KNOOWL.xcdatamodeld in Sources */,
 				571F80FF1D5BEE3A00C59C79 /* AppDelegate.m in Sources */,
 				571F80FC1D5BEE3A00C59C79 /* main.m in Sources */,
@@ -306,6 +318,7 @@
 				571F81131D5BEE3A00C59C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
